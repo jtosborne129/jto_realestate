@@ -4,10 +4,10 @@ import Image from "next/image";
 import { Flex, Box, Text, Icon } from "@chakra-ui/react";
 import { BsFilter } from "react-icons/bs";
 
-import Property from "@/components/Property";
-import SearchFilters from "@/components/SearchFilters";
-import { baseURL, fetchApi } from "@/utils/fetchAPI";
-import noresult from "@/assets/images/noresult.svg";
+import Property from "../components/Property";
+import SearchFilters from "../components/SearchFilters";
+import { baseURL, fetchApi } from "../utils/fetchAPI";
+import noresult from "../assets/images/noresult.svg";
 
 const Search = ({ properties }) => {
   const [searchFilters, setSearchFilters] = useState(false);
